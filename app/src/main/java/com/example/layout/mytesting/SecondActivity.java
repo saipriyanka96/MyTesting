@@ -1,0 +1,17 @@
+package com.example.layout.mytesting;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class SecondActivity extends AppCompatActivity {
+    /*onCreate is the first method in the life cycle of an activity
+        savedInstance passes data to super class,data is pull to store state of application
+      * setContentView is used to set layout for the activity
+      *R is a resource and it is auto generate file
+      * activity_main assign an integer value*/
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_second);
+    }
+}
